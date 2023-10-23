@@ -1,5 +1,7 @@
 console.log('app.js');
-var btn_read = document.getElementById('btn_read');
-btn_read.addEventListener( e => {
-  alert('HELLO!!');
+document.addEventListener('DOMContentLoaded', e => {
+  var btn_read = document.getElementById('btn_read');
+  btn_read.addEventListener('click', e => {
+    alert('HELLO!!');
+  });
 });
